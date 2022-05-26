@@ -1,0 +1,26 @@
+table, tr{
+    /* Ensure your table has a border attribute with a value of 1, cell padding, 
+    and cell spacing with a value of 5. */
+    border: 1px solid black; 
+    padding: 5px;
+    border-spacing: 5px;
+}
+
+th, td {
+     
+        border: 1px solid blue; 
+        padding: 5px;   
+}
+
+.__adekunle__score, .__john1__score, .__peter__score, .__rukayat__score, .__paul__score, 
+.__victor__score, .__john2__score, .__doe__score, .__stephen__score{
+    font-weight: bold;
+    font-size: large;
+    text-align: end;
+}
+
+.__colspan{
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: end;
+}

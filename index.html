@@ -9,15 +9,6 @@
 </head>
 <body>
 
-    <style>
-        table, tr, th, td {
-            border: 1px solid blue;
-        }
-        /* hr{
-            border: 1px solid black;
-        
-        } */
-    </style>
 
 <!--Heading should contain details about the school, teacher, and class
 Ensure the Table Head(th) has a serial number, students, subjects, and total scores as columns.
@@ -28,73 +19,74 @@ Ensure your total scores  has a colspan twice the score
 Ensure each subject score (td) has a class attribute.--->
     <table width="100%">
         <thead>
-            <tr>
-                MR ADE'S DATA FOR SS2 CLASS OF ST. BENEDICT HIGH SCHOOL
-                <th>S/N</th>
-                <th>STUDENT</th>
-                <th>SUBJECTS</th>
-                <th>TOTAL SCORES</th>
+            MR ADE'S DATA FOR SS2 CLASS OF ST. BENEDICT HIGH SCHOOL
+            <tr class="__trows__header">
+                <th id="__sn">S/N</th>
+                <th id="__student">STUDENT</th>
+                <th id="__subjects">SUBJECTS</th>
+                <th id="__total__scores" >TOTAL SCORES</th>
             </tr>
         </head>
 
         <tbody>
-            <tr>
+            <tr class="__row__1">
                 <td>1.</td>
                 <td>Adekunle</td>
                 <td>Mathematics, English, Physics, Chemistry, Biology</td>
-                <td>303</td>
+                <td class="__adekunle__score">303</td>
             </tr>
-            <tr>
+            <tr class="__row__2">
                 <td>2.</td>
                 <td>John</td>
                 <td>Mathematics, English, Physics, Chemistry, Biology</td>
-                <td>289</td>
+                <td class="__john1__score">289</td>
             </tr>
-            <tr>
+            <tr class="__row__3">
                 <td>3.</td>
                 <td>Peter</td>
                 <td>Mathematics, English, Physics, Chemistry, Biology</td>
-                <td>349</td>
+                <td class="__peter__score">349</td>
             </tr>
-            <tr>
+            <tr class="__row__4">
                 <td>4.</td>
                 <td>Rukayat</td>
                 <td>Mathematics, English, Physics, Chemistry, Biology</td>
-                <td>387</td>
+                <td class="__rukayat__score">387</td>
             </tr>
-            <tr>
+            <tr class="__row__5">
                 <td>5.</td>
                 <td>Paul</td>
                 <td>Mathematics, English, Physics, Chemistry, Biology</td>
-                <td>351</td>
+                <td class="__paul__score">351</td>
             </tr>
-            <tr>
+            <tr class="__row__6">
                 <td>6.</td>
                 <td>Victor</td>
                 <td>Mathematics, English, Physics, Chemistry, Biology</td>
-                <td>324</td>
+                <td class="__victor__score">324</td>
             </tr>
-            <tr>
+            <tr class="__row__7">
                 <td>7.</td>
                 <td>John</td>
                 <td>Mathematics, English, Physics, Chemistry, Biology</td>
-                <td>333</td>
+                <td class="__john2__score">333</td>
             </tr>
-            <tr>
+            <tr class="__row__8">
                 <td>8.</td>
                 <td>Doe</td>
                 <td>Mathematics, English, Physics, Chemistry, Biology</td>
-                <td>296</td>
+                <td class="__doe__score">296</td>
             </tr>
-            <tr>
+            <tr class="__row__9">
                 <td>9.</td>
                 <td>Stephen</td>
                 <td>Mathematics, English, Physics, Chemistry, Biology</td>
-                <td>340</td>
+                <td class="__stephen__score">340</td>
             </tr>
 
-            <td colspan="2">2.</td>
-            <td>John</td>
+            <td colspan="4" class="__colspan">2,972</td>
+            
+            
         </tbody>
         <tfoot></tfoot>
     </table>
